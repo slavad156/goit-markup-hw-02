@@ -1,3 +1,28 @@
-/* background-color: #E5E5E5 */
+/* фон: #FFFFFF */
+/* вторичный фон: #F5F4FA */
 /* footer color: #2F303A */
-/* blue element color: #2196F3 */
+/* акцент: #2196F3 */
+/* первичный цвет текста: #757575 */
+/* вторичный цвет текста: #212121 */
+:root {
+  --background-color: #ffffff;
+  --footer-color: #2f303a;
+  --primary-color-text: #757575;
+  --secondary-color-text: #212121;
+  --accent: #2196f3;
+}
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo-header {
+  color: #000000;
+}
+.logo-web {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
