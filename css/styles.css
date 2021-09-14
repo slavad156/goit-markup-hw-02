@@ -137,9 +137,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
-  /* align-items: center;
-  text-align: center; */
   letter-spacing: 0.06em;
 }
 
@@ -200,6 +197,12 @@ body {
   background-color: var(--secondary-background-color);
   color: var(--secondary-color-text);
   cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 .buttons-portfolio .filter:hover,
@@ -210,4 +213,14 @@ body {
 
 .products-title {
   color: var(--secondary-color-text);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.products-type {
+  font-size: 16px;
+  line-height: 1.87;
 }
