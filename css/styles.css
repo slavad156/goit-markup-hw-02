@@ -132,8 +132,7 @@ body {
   background-color: var(--accent);
   cursor: pointer;
 
-  font-family: Roboto;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
